@@ -1,0 +1,73 @@
+body {
+  background-color: #ffff99
+}
+
+/* Header */
+#header {
+  margin-top: 5px;
+  margin-left: 35%;
+  animation-name: tada;
+  animation-duration: 5s;
+}
+
+/* Main */
+/* Animation du bouton back to github */
+@keyframes Animation1 {
+  10%, 90% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  20% {
+    transform: translate3d(3px, 0, 0);
+  }
+
+  50%, 70% {
+    transform: translate3d(-6px, 0, 0);
+  }
+
+  40% {
+    transform: translate3d(6px, 0, 0);
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-left {
+  text-align: center;
+}
+
+.main-right {
+  margin-top: auto;
+}
+
+h1 {
+  font-family: "Avantgarde"
+    sans-serif;
+}
+
+#back-button {
+  text-align: center;
+  font-size: 30px;
+  background-color: #4d1a00;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  animation-name: Animation1;
+  animation-duration: 25s;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: #ffff99
+}
+
+.main-right {}
